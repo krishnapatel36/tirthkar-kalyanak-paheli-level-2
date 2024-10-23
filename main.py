@@ -10,10 +10,10 @@ def sortkey(x):
     x = str(x)
     return (len(x), x)
 
-COLOURS = dict(A="#EEAAAA", B="#DDBB99", C="#CCCC88",
-            D="#BBDD99", E="#AAEEAA", F="#99DDBB",
-            G="#88CCCC", J="#99BBDD", K="#AAAAEE",
-            L="#BB99DD", M="#CC88CC", H="#DD99BB")
+COLOURS = dict(A="#FEF65B", B="#A3FFB4", C="#E1C0B6",
+            D="#4974A5", E="#00FFFF", F="#FFA500",
+            G="#8D5959", J="#03989E", K="#843C54",
+            L="#0000FF", M="#5D782E", H="#FF0000")
 
 # date=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 # number = st.selectbox("Select Date",date)
